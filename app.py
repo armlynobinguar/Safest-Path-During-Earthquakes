@@ -36,7 +36,7 @@ add_selectbox = st.sidebar.radio(
 
 if add_selectbox == 'Home':
     
-    LOGO_IMAGE = "images/omdena_japan_logo.jpg"
+    LOGO_IMAGE = "Images/omdena_japan_logo.jpg"
     
     st.markdown(
           """
@@ -112,13 +112,13 @@ elif add_selectbox == 'Visualizations':
     
     st.subheader('PROJECT VISUALIZATIONS')
     st.markdown('<h4>Japan Earthquake Zoning Areas</h4>', unsafe_allow_html=True)
-    st.image("Japan_Earthquakes_Zoning.png", width=500)
+    st.image("Images/Japan_Earthquakes_Zoning.png", width=500)
     st.markdown('<h4>Nakagawa Shelter Maps</h4>', unsafe_allow_html=True)
-    st.image("Nakagawa_Shelter_Maps.png", width=500)
+    st.image("Images/Nakagawa_Shelter_Maps.png", width=500)
     st.markdown('<h4>Nakagawa Building Density Score</h4>', unsafe_allow_html=True)
-    st.image("Nakagawa_Building_Density_Score.png", width=500)
+    st.image("Images/Nakagawa_Building_Density_Score.png", width=500)
     st.markdown('<h4>Nakagawa Distance Risk Score</h4>', unsafe_allow_html=True)
-    st.image("Nakagawa_Distance_Risk_Score.png", width=500)
+    st.image("Images/Nakagawa_Distance_Risk_Score.png", width=500)
     
 elif add_selectbox == 'Conclusion':
     
