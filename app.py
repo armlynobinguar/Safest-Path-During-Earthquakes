@@ -92,10 +92,10 @@ elif add_selectbox == 'About':
                 unsafe_allow_html=True)
     
     st.markdown('<h4>Developments Made</h4>', unsafe_allow_html=True)
-    st.markdown('We had designed a model collecting data about the local roads from satellite images, classify them and indicate the safest \
+    st.markdown('• We had designed a model collecting data about the local roads from satellite images, classify them and indicate the safest \
         route to be taken from point A to point B and an interactive dashboard to display the safest route in a map.',
                 unsafe_allow_html=True)
-    st.markdown('By making individuals aware, it will improve their preparedness and it can be used within families to prepare disaster \
+    st.markdown('• By making individuals aware, it will improve their preparedness and it can be used within families to prepare disaster \
         response plans, depending on their circumstances. To be used by individuals, families and groups, and foreign residents who may \
             not understand local information. Further development will be covering more geographical areas and publicising on a local level.'
                 , unsafe_allow_html=True)
@@ -122,9 +122,19 @@ elif add_selectbox == 'Visualizations':
     
 elif add_selectbox == 'Conclusion':
     
+    st.subheader('TECH STACK')
+
+    st.markdown('• Data Gathering - ', unsafe_allow_html=True)
+    st.markdown('• Data Preparation - ', unsafe_allow_html=True)
+    st.markdown('• Risk Classification - ', unsafe_allow_html=True) 
+    st.markdown('• Path Finding Algorithms - Python, Jupyter Notebooks', unsafe_allow_html=True) 
+    st.markdown('• Dashboard - Streamlit, Heroku', unsafe_allow_html=True) 
+    
     st.subheader('PROJECT SUMMARY')
 
-    st.markdown('Write Project Summary here', unsafe_allow_html=True) 
+    st.markdown('• ', unsafe_allow_html=True) 
+    st.markdown('• ', unsafe_allow_html=True) 
+    st.markdown('• ', unsafe_allow_html=True) 
     
     st.subheader('CONCLUSION')
     
